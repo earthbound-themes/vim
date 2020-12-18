@@ -37,10 +37,10 @@ hi VisualNOS                           guibg=#000000
 hi WarningMsg    guifg=#f6f929      guibg=#000000
 hi Number        guifg=#aaef64                         gui=underline
 hi Char          guifg=#ff6693                       
-hi String        guifg=#ff6693                         gui=italic
+hi String        guifg=#ff6693                         gui=italic         
 hi Boolean       guifg=#fd9935                      
 hi Comment       guifg=#7ca454
-hi Constant      guifg=#c67ff4                       gui=bold,underline
+hi Constant      guifg=#c67ff4                       gui=bold
 hi Identifier    guifg=#f6f929
 hi Statement     guifg=#fd35fa                         gui=none
 hi CursorLine                          guibg=#131313
@@ -54,7 +54,7 @@ hi PreProc       guifg=#f6f929                           gui=bold
 hi Type          guifg=#fd35fa                         gui=bold
 hi Underlined    guifg=#f6f929                           gui=underline
 hi Error         guifg=#ee1111         guibg=#000000
-hi Todo          guifg=#fd35fa    guibg=#7ca454  gui=none
+hi Todo          guifg=#000000   guibg=#7ca454  gui=none
 hi SignColumn                          guibg=#000000
 
 if version >= 700
@@ -76,5 +76,5 @@ syn match    cCustomScope    "::"
 syn match    cCustomClass    "\w\+\s*::" contains=cCustomScope
 syn match    cCustomProp     "\.\w\+\s*."
 
-hi cCustomProp                                              gui=italic
+"hi cCustomProp                                                        
 hi cCustomFunc    guifg=#5e9aff                      gui=bold 
