@@ -1,0 +1,3 @@
+[submodule "Vim-toCterm"]
+	path = Vim-toCterm
+	url = https://github.com/shawncplus/Vim-toCterm.git
