@@ -14,59 +14,59 @@ if exists("syntax_on")
 endif
 let g:colors_name = 'earthbound'
 
-hi Cursor        guifg=#360a5f ctermfg=53 ctermfg=53   guibg=#ffffff ctermbg=15 ctermbg=15
-hi lCursor       guifg=#360a5f ctermfg=53 ctermfg=53   guibg=#ffffff ctermbg=15 ctermbg=15
-hi CursorIM      guifg=#360a5f ctermfg=53 ctermfg=53   guibg=#ffffff ctermbg=15 ctermbg=15
-hi Directory     guifg=#f56b3c ctermfg=203 ctermfg=203      guibg=#360a5f ctermbg=53 ctermbg=53  gui=bold
-hi ErrorMsg      guifg=#ee1111 ctermfg=9 ctermfg=9         guibg=#360a5f ctermbg=53 ctermbg=53
-hi VertSplit     guifg=#360a5f ctermfg=53 ctermfg=53   guibg=#fafd51 ctermbg=227 ctermbg=227
-hi LineNr        guifg=#94b2b2 ctermfg=109 ctermfg=109    guibg=#1c0037 ctermbg=234 ctermbg=234
-hi ModeMsg       guifg=#acaf6f ctermfg=143 ctermfg=143   guibg=#360a5f ctermbg=53 ctermbg=53
-hi MoreMsg       guifg=#acaf6f ctermfg=143 ctermfg=143   guibg=#360a5f ctermbg=53 ctermbg=53
-hi Normal        guifg=#ffffff ctermfg=15 ctermfg=15        guibg=#360a5f ctermbg=53 ctermbg=53
-hi Question      guifg=#acaf6f ctermfg=143 ctermfg=143   guibg=#360a5f ctermbg=53 ctermbg=53
-hi Search        guifg=#223322 ctermfg=235 ctermfg=235         guibg=#acaf6f ctermbg=143 ctermbg=143  gui=none
-hi NonText       guifg=#606060 ctermfg=59 ctermfg=59                              gui=none
-hi SpecialKey    guifg=#707070 ctermfg=242 ctermfg=242
+hi Cursor        guifg=#360a5f ctermfg=53   guibg=#ffffff ctermbg=15
+hi lCursor       guifg=#360a5f ctermfg=53   guibg=#ffffff ctermbg=15
+hi CursorIM      guifg=#360a5f ctermfg=53   guibg=#ffffff ctermbg=15
+hi Directory     guifg=#f56b3c ctermfg=203      guibg=#360a5f ctermbg=53  gui=bold
+hi ErrorMsg      guifg=#ee1111 ctermfg=9         guibg=#360a5f ctermbg=53
+hi VertSplit     guifg=#360a5f ctermfg=53   guibg=#fafd51 ctermbg=227
+hi LineNr        guifg=#94b2b2 ctermfg=109    guibg=#1c0037 ctermbg=234
+hi ModeMsg       guifg=#acaf6f ctermfg=143   guibg=#360a5f ctermbg=53
+hi MoreMsg       guifg=#acaf6f ctermfg=143   guibg=#360a5f ctermbg=53
+hi Normal        guifg=#ffffff ctermfg=15        guibg=#360a5f ctermbg=53
+hi Question      guifg=#acaf6f ctermfg=143   guibg=#360a5f ctermbg=53
+hi Search        guifg=#223322 ctermfg=235         guibg=#acaf6f ctermbg=143  gui=none
+hi NonText       guifg=#606060 ctermfg=59                              gui=none
+hi SpecialKey    guifg=#707070 ctermfg=242
 "\n, \0, %d, %s, etc...
-hi Special       guifg=#fafd51 ctermfg=227 ctermfg=227                         gui=bold
+hi Special       guifg=#fafd51 ctermfg=227                         gui=bold
 " status line
-hi Title         guifg=#fafd51 ctermfg=227 ctermfg=227    guibg=#360a5f ctermbg=53 ctermbg=53  gui=bold
-hi Visual                              guibg=#6a6c23 ctermbg=58 ctermbg=58   gui=none
-hi VisualNOS                           guibg=#360a5f ctermbg=53 ctermbg=53
-hi WarningMsg    guifg=#f56b3c ctermfg=203 ctermfg=203      guibg=#360a5f ctermbg=53 ctermbg=53
-hi Number        guifg=#fb967f ctermfg=210 ctermfg=210                         gui=underline
-hi Char          guifg=#84fc60 ctermfg=119 ctermfg=119                       
-hi String        guifg=#84fc60 ctermfg=119 ctermfg=119                         gui=italic         
-hi Boolean       guifg=#70caff ctermfg=81 ctermfg=81                      
-hi Comment       guifg=#acaf6f ctermfg=143 ctermfg=143
-hi Constant      guifg=#abdcdc ctermfg=152 ctermfg=152                       gui=bold
-hi Identifier    guifg=#f56b3c ctermfg=203 ctermfg=203
-hi Statement     guifg=#fafd51 ctermfg=227 ctermfg=227                         gui=none
-hi CursorLine                          guibg=#1c0037 ctermbg=234 ctermbg=234
-hi CursorLineNR  guifg=#fafd51 ctermfg=227 ctermfg=227                         gui=bold
+hi Title         guifg=#fafd51 ctermfg=227    guibg=#360a5f ctermbg=53  gui=bold
+hi Visual                              guibg=#6a6c23 ctermbg=58   gui=none
+hi VisualNOS                           guibg=#360a5f ctermbg=53
+hi WarningMsg    guifg=#f56b3c ctermfg=203      guibg=#360a5f ctermbg=53
+hi Number        guifg=#fb967f ctermfg=210                         gui=underline
+hi Char          guifg=#84fc60 ctermfg=119                       
+hi String        guifg=#84fc60 ctermfg=119                         gui=italic         
+hi Boolean       guifg=#70caff ctermfg=81                      
+hi Comment       guifg=#acaf6f ctermfg=143
+hi Constant      guifg=#abdcdc ctermfg=152                       gui=bold
+hi Identifier    guifg=#f56b3c ctermfg=203
+hi Statement     guifg=#fafd51 ctermfg=227                         gui=none
+hi CursorLine                          guibg=#1c0037 ctermbg=234  gui=none
+hi CursorLineNR  guifg=#fafd51 ctermfg=227                         gui=bold
 
 "Procedure name
-hi Function      guifg=#70caff ctermfg=81 ctermfg=81                       gui=bold
+hi Function      guifg=#70caff ctermfg=81                       gui=bold
 
 "Define, def
-hi PreProc       guifg=#f56b3c ctermfg=203 ctermfg=203                           gui=bold
-hi Type          guifg=#fafd51 ctermfg=227 ctermfg=227                         gui=bold
-hi Underlined    guifg=#f56b3c ctermfg=203 ctermfg=203                           gui=underline
-hi Error         guifg=#ee1111 ctermfg=9 ctermfg=9         guibg=#360a5f ctermbg=53 ctermbg=53
-hi Todo          guifg=#360a5f ctermfg=53 ctermfg=53   guibg=#acaf6f ctermbg=143 ctermbg=143  gui=none
-hi SignColumn                          guibg=#360a5f ctermbg=53 ctermbg=53
+hi PreProc       guifg=#f56b3c ctermfg=203                           gui=bold
+hi Type          guifg=#fafd51 ctermfg=227                         gui=bold
+hi Underlined    guifg=#f56b3c ctermfg=203                           gui=underline
+hi Error         guifg=#ee1111 ctermfg=9         guibg=#360a5f ctermbg=53
+hi Todo          guifg=#360a5f ctermfg=53   guibg=#acaf6f ctermbg=143  gui=none
+hi SignColumn                          guibg=#360a5f ctermbg=53
 
 if version >= 700
   " Pmenu
-  hi Pmenu                             guibg=#222222 ctermbg=235 ctermbg=235
-  hi PmenuSel     guifg=#f56b3c ctermfg=203 ctermfg=203     guibg=#3a553a ctermbg=238 ctermbg=238
-  hi PmenuSbar                         guibg=#222222 ctermbg=235 ctermbg=235
+  hi Pmenu                             guibg=#222222 ctermbg=235
+  hi PmenuSel     guifg=#f56b3c ctermfg=203     guibg=#3a553a ctermbg=238
+  hi PmenuSbar                         guibg=#222222 ctermbg=235
 
   " Tab
-  hi TabLine      guifg=#3a553a ctermfg=238 ctermfg=238        guibg=black          gui=bold
+  hi TabLine      guifg=#3a553a ctermfg=238        guibg=black          gui=bold
   hi TabLineFill  guifg=black          guibg=black          gui=bold
-  hi TabLineSel   guifg=#88ee99 ctermfg=120 ctermfg=120        guibg=#447f55 ctermbg=65 ctermbg=65        gui=bold
+  hi TabLineSel   guifg=#88ee99 ctermfg=120        guibg=#447f55 ctermbg=65        gui=bold
 endif
 
 " Highlight Class and Function names
@@ -77,4 +77,4 @@ syn match    cCustomClass    "\w\+\s*::" contains=cCustomScope
 syn match    cCustomProp     "\.\w\+\s*."
 
 "hi cCustomProp                                                        
-hi cCustomFunc    guifg=#70caff ctermfg=81 ctermfg=81                      gui=bold 
+hi cCustomFunc    guifg=#70caff ctermfg=81                      gui=bold 
