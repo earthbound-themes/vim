@@ -6,12 +6,12 @@ This is a submodule for [the main repo](https://github.com/benbusby/earthbound-t
 Pull requests / issues should be directed there instead. 
 
 ## Installation
-#### vim-plug
+#### [vim-plug](https://github.com/junegunn/vim-plug)
 ```
 Plug 'benbusby/vim-earthbound-themes'
 ```
 
-#### Vundle
+#### [Vundle](https://github.com/VundleVim/Vundle.vim)
 ```
 Plugin 'benbusby/vim-earthbound-themes'
 ```
