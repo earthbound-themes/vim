@@ -20,7 +20,7 @@ hi CursorIM      guifg=#303454 ctermfg=237   guibg=#f0faff ctermbg=15
 hi Directory     guifg=#ffcfcb ctermfg=224      guibg=#303454 ctermbg=237  gui=bold
 hi ErrorMsg      guifg=#ee1111 ctermfg=9         guibg=#303454 ctermbg=237
 hi VertSplit     guifg=#303454 ctermfg=237   guibg=#d4cbff ctermbg=189
-hi LineNr        guifg=#9590b2 ctermfg=103    guibg=#202339 ctermbg=235
+hi LineNr        guifg=#9590b2 ctermfg=103    guibg=#2a2e4a ctermbg=237
 hi ModeMsg       guifg=#bdb7db ctermfg=146   guibg=#303454 ctermbg=237
 hi MoreMsg       guifg=#bdb7db ctermfg=146   guibg=#303454 ctermbg=237
 hi Normal        guifg=#f0faff ctermfg=15        guibg=#303454 ctermbg=237
@@ -43,7 +43,7 @@ hi Comment       guifg=#bdb7db ctermfg=146
 hi Constant      guifg=#2fff89 ctermfg=48                       gui=bold
 hi Identifier    guifg=#ffcfcb ctermfg=224
 hi Statement     guifg=#d4cbff ctermfg=189                         gui=none
-hi CursorLine                          guibg=#202339 ctermbg=235  gui=none
+hi CursorLine                          guibg=#2a2e4a ctermbg=237
 hi CursorLineNR  guifg=#d4cbff ctermfg=189                         gui=bold
 
 "Procedure name

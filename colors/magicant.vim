@@ -14,27 +14,27 @@ if exists("syntax_on")
 endif
 let g:colors_name = 'magicant'
 
-hi Cursor        guifg=#e6e5ab ctermfg=187   guibg=#220088 ctermbg=18
-hi lCursor       guifg=#e6e5ab ctermfg=187   guibg=#220088 ctermbg=18
-hi CursorIM      guifg=#e6e5ab ctermfg=187   guibg=#220088 ctermbg=18
-hi Directory     guifg=#881200 ctermfg=88      guibg=#e6e5ab ctermbg=187  gui=bold
-hi ErrorMsg      guifg=#ee1111 ctermfg=9         guibg=#e6e5ab ctermbg=187
-hi VertSplit     guifg=#e6e5ab ctermfg=187   guibg=#604633 ctermbg=238
-hi LineNr        guifg=#876a55 ctermfg=95    guibg=#f9f8b9 ctermbg=229
-hi ModeMsg       guifg=#525252 ctermfg=239   guibg=#e6e5ab ctermbg=187
-hi MoreMsg       guifg=#525252 ctermfg=239   guibg=#e6e5ab ctermbg=187
-hi Normal        guifg=#220088 ctermfg=18        guibg=#e6e5ab ctermbg=187
-hi Question      guifg=#525252 ctermfg=239   guibg=#e6e5ab ctermbg=187
+hi Cursor        guifg=#f9f8b9 ctermfg=229   guibg=#220088 ctermbg=18
+hi lCursor       guifg=#f9f8b9 ctermfg=229   guibg=#220088 ctermbg=18
+hi CursorIM      guifg=#f9f8b9 ctermfg=229   guibg=#220088 ctermbg=18
+hi Directory     guifg=#881200 ctermfg=88      guibg=#f9f8b9 ctermbg=229  gui=bold
+hi ErrorMsg      guifg=#ee1111 ctermfg=9         guibg=#f9f8b9 ctermbg=229
+hi VertSplit     guifg=#f9f8b9 ctermfg=229   guibg=#604633 ctermbg=238
+hi LineNr        guifg=#876a55 ctermfg=95    guibg=#e6e5ab ctermbg=187
+hi ModeMsg       guifg=#525252 ctermfg=239   guibg=#f9f8b9 ctermbg=229
+hi MoreMsg       guifg=#525252 ctermfg=239   guibg=#f9f8b9 ctermbg=229
+hi Normal        guifg=#220088 ctermfg=18        guibg=#f9f8b9 ctermbg=229
+hi Question      guifg=#525252 ctermfg=239   guibg=#f9f8b9 ctermbg=229
 hi Search        guifg=#223322 ctermfg=235         guibg=#525252 ctermbg=239  gui=none
 hi NonText       guifg=#606060 ctermfg=59                              gui=none
 hi SpecialKey    guifg=#707070 ctermfg=242
 "\n, \0, %d, %s, etc...
 hi Special       guifg=#604633 ctermfg=238                         gui=bold
 " status line
-hi Title         guifg=#604633 ctermfg=238    guibg=#e6e5ab ctermbg=187  gui=bold
+hi Title         guifg=#604633 ctermfg=238    guibg=#f9f8b9 ctermbg=229  gui=bold
 hi Visual                              guibg=#b299ff ctermbg=141   gui=none
-hi VisualNOS                           guibg=#e6e5ab ctermbg=187
-hi WarningMsg    guifg=#881200 ctermfg=88      guibg=#e6e5ab ctermbg=187
+hi VisualNOS                           guibg=#f9f8b9 ctermbg=229
+hi WarningMsg    guifg=#881200 ctermfg=88      guibg=#f9f8b9 ctermbg=229
 hi Number        guifg=#604633 ctermfg=238                         gui=underline
 hi Char          guifg=#7100b1 ctermfg=55                       
 hi String        guifg=#7100b1 ctermfg=55                         gui=italic         
@@ -43,7 +43,7 @@ hi Comment       guifg=#525252 ctermfg=239
 hi Constant      guifg=#87000d ctermfg=88                       gui=bold
 hi Identifier    guifg=#881200 ctermfg=88
 hi Statement     guifg=#604633 ctermfg=238                         gui=none
-hi CursorLine                          guibg=#f9f8b9 ctermbg=229  gui=none
+hi CursorLine                          guibg=#e6e5ab ctermbg=187
 hi CursorLineNR  guifg=#604633 ctermfg=238                         gui=bold
 
 "Procedure name
@@ -53,9 +53,9 @@ hi Function      guifg=#9d02f2 ctermfg=129                       gui=bold
 hi PreProc       guifg=#881200 ctermfg=88                           gui=bold
 hi Type          guifg=#604633 ctermfg=238                         gui=bold
 hi Underlined    guifg=#881200 ctermfg=88                           gui=underline
-hi Error         guifg=#ee1111 ctermfg=9         guibg=#e6e5ab ctermbg=187
-hi Todo          guifg=#e6e5ab ctermfg=187   guibg=#525252 ctermbg=239  gui=none
-hi SignColumn                          guibg=#e6e5ab ctermbg=187
+hi Error         guifg=#ee1111 ctermfg=9         guibg=#f9f8b9 ctermbg=229
+hi Todo          guifg=#f9f8b9 ctermfg=229   guibg=#525252 ctermbg=239  gui=none
+hi SignColumn                          guibg=#f9f8b9 ctermbg=229
 
 if version >= 700
   " Pmenu

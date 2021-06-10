@@ -43,7 +43,7 @@ hi Comment       guifg=#7ca454 ctermfg=107
 hi Constant      guifg=#c67ff4 ctermfg=177                       gui=bold
 hi Identifier    guifg=#f6f929 ctermfg=11
 hi Statement     guifg=#fd35fa ctermfg=207                         gui=none
-hi CursorLine                          guibg=#131313 ctermbg=233  gui=none
+hi CursorLine                          guibg=#131313 ctermbg=233
 hi CursorLineNR  guifg=#fd35fa ctermfg=207                         gui=bold
 
 "Procedure name
