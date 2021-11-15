@@ -78,3 +78,6 @@ syn match    cCustomProp     "\.\w\+\s*."
 
 "hi cCustomProp                                                        
 hi cCustomFunc    guifg=#f6d56a ctermfg=221                      gui=bold 
+
+hi diffAdded ctermfg=green guifg=#00FF00 ctermfg=10
+hi diffRemoved ctermfg=red guifg=#FF0000 ctermfg=9
